@@ -1,0 +1,22 @@
+{
+    "restaurants": [
+        {
+            "id": 1,
+            "name": "KFC restaurant",
+            "address": "Cannaught Place, New Delhi",
+            "email": "kfc@test.com"
+        },
+        {
+            "id": 2,
+            "name": "Om Sweets",
+            "address": "KarolBagh, New Delhi",
+            "email": "omsweets@test.com"
+        },
+        {
+            "id": 3,
+            "name": "Haldiram & Sons",
+            "address": "Akshardham Metro Station, New Delhi",
+            "email": "haldiram@test.com"
+        }
+    ]
+}
