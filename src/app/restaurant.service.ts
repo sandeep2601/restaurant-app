@@ -10,4 +10,9 @@ export class RestaurantService {
   getList() {
     return this.httpService.get(this.url);
   }
+
+  saveData(data) {
+    console.log('data', data);
+    return this.httpService.post(this.url, data);
+  }
 }

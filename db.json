@@ -1,40 +1,46 @@
 {
-    "restaurants": [
-      {
-        "id": 1,
-        "name": "KFC restaurant",
-        "address": "Cannaught Place, New Delhi",
-        "email": "kfc@test.com"
-      },
-      {
-        "id": 2,
-        "name": "Om Sweets",
-        "address": "KarolBagh, New Delhi",
-        "email": "omsweets@test.com"
-      },
-      {
-        "name": "Haldiram & Sons",
-        "address": "Akshardham Metro Station, New Delhi",
-        "email": "haldiram@test.com",
-        "id": 3
-      },
-      {
-        "name": "Burger King",
-        "address": "Dilshad Garden, New Delhi",
-        "email": "bking@test.com",
-        "id": 4
-      },
-      {
-        "name": "Dominos",
-        "address": "Nangloi Metro Station, New Delhi",
-        "email": "dominos@test.com",
-        "id": 5
-      },
-      {
-        "name": "Pizza Hut",
-        "address": "Paschim Vihar, New Delhi",
-        "email": "pizzahut@test.com",
-        "id": 6
-      }
-    ]
-  }
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "KFC restaurant",
+      "address": "Cannaught Place, New Delhi",
+      "email": "kfc@test.com"
+    },
+    {
+      "id": 2,
+      "name": "Om Sweets",
+      "address": "KarolBagh, New Delhi",
+      "email": "omsweets@test.com"
+    },
+    {
+      "name": "Haldiram & Sons",
+      "address": "Akshardham Metro Station, New Delhi",
+      "email": "haldiram@test.com",
+      "id": 3
+    },
+    {
+      "name": "Burger King",
+      "address": "Dilshad Garden, New Delhi",
+      "email": "bking@test.com",
+      "id": 4
+    },
+    {
+      "name": "Dominos",
+      "address": "Nangloi Metro Station, New Delhi",
+      "email": "dominos@test.com",
+      "id": 5
+    },
+    {
+      "name": "Pizza Hut",
+      "address": "Paschim Vihar, New Delhi",
+      "email": "pizzahut@test.com",
+      "id": 6
+    },
+    {
+      "name": "Subway",
+      "email": "subway@test.com",
+      "address": "Multan Nagar, New Delhi",
+      "id": 7
+    }
+  ]
+}

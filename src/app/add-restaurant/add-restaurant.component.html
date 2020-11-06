@@ -1,1 +1,17 @@
 <p>add-restaurant works!</p>
+
+<form [formGroup]="addRestaurant" (ngSubmit)="addData()" >
+    <div class="form-group">
+      <label for="exampleInputEmail1">Name</label>
+      <input type="text" class="form-control" placeholder="Enter Name" formControlName="name" >
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" placeholder="Enter email" formControlName="email" >
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Address</label>
+      <input type="text" class="form-control" placeholder="Enter address" formControlName="address" >
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
