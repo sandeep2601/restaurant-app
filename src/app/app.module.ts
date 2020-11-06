@@ -8,6 +8,7 @@ import { UpdateRestaurantComponent } from './update-restaurant/update-restaurant
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ListRestaurantComponent } from './list-restaurant/list-restaurant.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ListRestaurantComponent } from './list-restaurant/list-restaurant.compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
