@@ -15,4 +15,8 @@ export class RestaurantService {
     console.log('data', data);
     return this.httpService.post(this.url, data);
   }
+
+  deleteRestaurant(id) {
+    return this.httpService.delete(`${this.url}/${id}`);
+  }
 }
