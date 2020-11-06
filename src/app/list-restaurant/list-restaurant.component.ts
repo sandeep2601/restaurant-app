@@ -8,11 +8,10 @@ import { RestaurantService } from '../restaurant.service';
 })
 export class ListRestaurantComponent implements OnInit {
   constructor(private restaurantData: RestaurantService) {}
-  collection: any = [];
+  collection: any = {};
   ngOnInit(): void {
     this.restaurantData.getList().subscribe((result) => {
       this.collection = result;
-      console.log('result', result);
     });
   }
   deleteRestaurant(item) {

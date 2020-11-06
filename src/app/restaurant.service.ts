@@ -12,11 +12,18 @@ export class RestaurantService {
   }
 
   saveData(data) {
-    console.log('data', data);
     return this.httpService.post(this.url, data);
   }
 
   deleteRestaurant(id) {
     return this.httpService.delete(`${this.url}/${id}`);
+  }
+
+  getCurrentRestaurant(id) {
+    return this.httpService.get(`${this.url}/${id}`);
+  }
+
+  updateRestaurant(id, data) {
+    return this.httpService.put(`${this.url}/${id}`, data);
   }
 }
