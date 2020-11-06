@@ -41,6 +41,12 @@
       "email": "subway@test.com",
       "address": "Multan Nagar, New Delhi",
       "id": 7
+    },
+    {
+      "name": "Veer Ji Da Dhaba",
+      "email": "veerji@test.com",
+      "address": "Bahadurgarh, Haryana",
+      "id": 8
     }
   ]
 }

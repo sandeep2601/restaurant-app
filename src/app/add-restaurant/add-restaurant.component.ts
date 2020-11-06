@@ -13,12 +13,17 @@ export class AddRestaurantComponent implements OnInit {
     email: new FormControl(''),
     address: new FormControl(''),
   });
+  alert: boolean = false;
   constructor(private saveService: RestaurantService) {}
   ngOnInit(): void {}
 
   addData() {
     this.saveService.saveData(this.addRestaurant.value).subscribe((result) => {
-      console.log('result', result);
+      this.alert = true;
+      this.addRestaurant.reset({});
     });
+  }
+  closeAlert() {
+    this.alert = false;
   }
 }
