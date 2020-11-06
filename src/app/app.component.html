@@ -1,10 +1,27 @@
-<h1>Restaurant App</h1>
-<ul>
-  <li><a routerLink="add">Add Restaurant</a></li>
-  <li><a routerLink="list">List Restaurant</a></li>
-  <li><a routerLink="update">Update Restaurant</a></li>
-  <li><a routerLink="login">Login</a></li>
-  <li><a routerLink="register">Register</a></li>
-</ul>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Restaurant App</a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-link" routerLink="add">Add Restaurant</a>
+      <a class="nav-link" routerLink="list">List Restaurant</a>
+      <a class="nav-link" routerLink="update">Update Restaurant</a>
+      <a class="nav-link" routerLink="login">Login</a>
+      <a class="nav-link" routerLink="register">Register</a>
+    </div>
+  </div>
+</nav>
 
-<router-outlet></router-outlet>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
