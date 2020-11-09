@@ -6,6 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class RestaurantService {
   url = 'http://localhost:3000/restaurants';
+  rootUrl = 'http://localhost:3000';
   constructor(private httpService: HttpClient) {}
   getList() {
     return this.httpService.get(this.url);
@@ -25,5 +26,9 @@ export class RestaurantService {
 
   updateRestaurant(id, data) {
     return this.httpService.put(`${this.url}/${id}`, data);
+  }
+
+  registerUser(data) {
+    return this.httpService.post(this.rootUrl + '/users', data)
   }
 }

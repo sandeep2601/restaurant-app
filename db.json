@@ -48,5 +48,19 @@
       "address": "Bahadurgarh, Haryana",
       "id": 8
     }
+  ],
+  "users": [
+    {
+      "name": "Sandeep",
+      "email": "sandeep@test.com",
+      "password": "112003",
+      "id": 1
+    },
+    {
+      "name": "Ramesh",
+      "email": "ramesh@test.com",
+      "password": "123",
+      "id": 2
+    }
   ]
 }
